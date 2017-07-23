@@ -1,0 +1,34 @@
+
+div.happ-web-menubar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+div.happ-toggle-left {
+  transform: translateX(-100%) !important;
+  width: 40% !important;
+}
+div.happ-toggle-left div#rightSide {
+  width: 100% !important;
+  left: 0px;
+}
+
+div.happ-web-menubar i.fa-chevron-right {
+  display: none;
+}
+
+div.happ-right i.fa-chevron-left {
+  display: none !important;
+}
+div.happ-right i.fa-chevron-right {
+  display: block !important;
+}
+
+ul#rightSide li:nth-child(odd) {
+    float: right;
+}
+
+ul#rightSide li:nth-child(odd) {
+
+}
